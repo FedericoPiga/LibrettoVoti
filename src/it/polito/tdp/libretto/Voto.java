@@ -6,6 +6,26 @@ public class Voto {
 	private String corso;
 	private LocalDate data;    // Date o Calendar in java.util, meno consigliati
 	
+	public Voto(int voto, String corso, LocalDate data) {
+		super();
+		this.voto = voto;
+		this.corso = corso;
+		this.data = data;
+	}
+	
+	public int getVoto() {
+		return voto;
+	}
+
+	public String getCorso() {
+		return corso;
+	}
+
+	public LocalDate getData() {
+		return data;
+	}
+
+	
 	
 
 }
